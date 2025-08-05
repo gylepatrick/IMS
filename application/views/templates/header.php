@@ -75,7 +75,7 @@
                         <h6 class="collapse-header">Select Ledger to view</h6>
                         <a class="collapse-item" data-bs-toggle="modal" data-bs-target="#subsidModal">Office</a>
                         <a class="collapse-item" data-bs-toggle="modal" data-bs-target="#subsidModalMed">Medicine</a>
-                        <a class="collapse-item" data-bs-toggle="modal" data-bs-target="#subsidModalPPE">Property & Equipments</a>
+                        <a class="collapse-item" data-bs-toggle="modal" data-bs-target="#subsidModalppe">Property & Equipments</a>
                     </div>
                 </div>
             </li>
