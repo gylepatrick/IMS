@@ -53,7 +53,7 @@
         <!-- Signatories Column -->
         <div class="col-md-6">
             <div class="card shadow mb-4">
-                <div class="card-header bg-secondary text-white">
+                <div class="card-header bg-primary text-white">
                     Signatories
                 </div>
                 <div class="card-body">
@@ -73,7 +73,7 @@
 
 
     <div class="text-end">
-    <button type="submit" class="btn btn-success mb-3">
+    <button type="submit" class="btn btn-primary btn-sm mb-3">
         <i class="fas fa-save me-2"></i> Save Changes
     </button>
 </div>
