@@ -30,6 +30,7 @@
       min-height: 100vh;
       background: url('<?php echo base_url('assets/images/test.jpeg'); ?>') repeat center center fixed;
       background-size: cover;
+      background-color: #1e3a8a;
     }
 
     .login-wrapper {
@@ -91,7 +92,7 @@
 </head>
 <body>
 
-<div class="login-wrapper shadow-lg" style="border: 2px solid rgb(228, 228, 228); bacground-image: url('<?php echo base_url('assets/images/test.jpg'); ?>'); background-size: cover; background-position: center;">
+<div class="login-wrapper shadow-lg" style="border: 2px solid rgba(23, 8, 155, 1); background-size: cover; background-position: center;">
 
     <div class="text-center" id="ims-page">
     <h3 class="text-primary">IMS V1.0</h3>

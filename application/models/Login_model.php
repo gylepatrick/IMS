@@ -8,7 +8,7 @@ class Login_model extends CI_Model {
         parent::__construct();
         $this->load->database();
     }
-
+    
     // Check if the credentials are correct
     public function check_login($username, $password)
     {

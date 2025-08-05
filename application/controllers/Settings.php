@@ -1,6 +1,8 @@
 <?php
 
-class Settings extends CI_Controller {
+require_once 'BaseController.php';
+
+class Settings extends BaseController {
     public function __construct() {
         parent::__construct();
         $this->load->model('Settings_model');
