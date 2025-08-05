@@ -1,0 +1,52 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['login'] = 'login/index';
+$route['login/submit'] = 'login/submit';
+$route['logout'] = 'login/logout';
+
+$route['dashboard'] = "dashboard/index";
+$route['settings'] = 'settings/index';
+$route['offices'] = 'offices/index';
+$route['offices/items'] = 'offices/items';
+$route['offices/release'] = 'offices/release';
+$route['offices/delete_issuance'] = 'offices/delete_issuance';
+$route['offices'] = 'offices/store';
+$route['offices/get_item_by_barcode'] = 'offices/get_item_by_barcode';
+$route['offices/save_transaction'] = 'offices/save_transaction';
+$route['offices/update_transaction'] = 'offices/update_transaction';
+$route['export/generate_excel_subsidiary'] = 'export/generate_excel_subsidiary';
+$route['export/generate_excel_acquisition'] = 'export/generate_excel_acquisition';
+$route['office/get_low_stock_items'] = 'office/get_low_stock_items';
+$route['barcode/generate/(:any)'] = 'barcode/generate/$1';
+$route['medicines'] = 'medicines/index';
+$route['medicines/release'] = 'medicines/release';
+$route['medicines/delete_issuance'] = 'medicines/delete_issuance';
+$route['medicines'] = 'medicines/store';
+$route['medicines/get_item_by_barcode'] = 'medicines/get_item_by_barcode';
+$route['medicines/save_transaction'] = 'medicines/save_transaction';
+$route['medicines/update_transaction'] = 'medicines/update_transaction';
+$route['export_medicine/generate_excel_subsidiary'] = 'export_medicine/generate_excel_subsidiary';
+$route['export_medicine/generate_excel_acquisition'] = 'export_medicine/generate_excel_acquisition';
+$route['office/get_low_stock_items'] = 'office/get_low_stock_items';
+$route['barcode/generate/(:any)'] = 'barcode/generate/$1';
+$route['ppes'] = 'ppes/index';
+$route['ppes/release'] = 'ppes/release';
+$route['ppes/delete_issuance'] = 'ppes/delete_issuance';
+$route['ppes'] = 'ppes/store';
+$route['ppes/get_item_by_barcode'] = 'ppes/get_item_by_barcode';
+$route['ppes/save_transaction'] = 'ppes/save_transaction';
+$route['ppes/update_transaction'] = 'ppes/update_transaction';
+$route['export_medicine/generate_excel_subsidiary'] = 'export_medicine/generate_excel_subsidiary';
+$route['export_medicine/generate_excel_acquisition'] = 'export_medicine/generate_excel_acquisition';
+$route['office/get_low_stock_items'] = 'office/get_low_stock_items';
+$route['barcode/generate/(:any)'] = 'barcode/generate/$1';
+$route['export/generate_excel_acquisition_all'] = 'export/generate_excel_acquisition_all';
+$route['export/generate_excel_acquisition_all'] = 'export/generate_excel_acquisition_all';
+$route['offices/issue'] = 'offices/issue';
+$route['offices/process_issue'] = 'offices/process_issue';
+$route['default_controller'] = 'login';
+$route['main'] = 'home/index';
+
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
